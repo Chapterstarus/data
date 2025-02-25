@@ -1,0 +1,693 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>redis-6.2.17-1.el8.remi.x86_64 RPM</title>
+<meta name="GENERATOR" content="rpm2html 1.8.1">
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<table border=5 cellspacing=5 cellpadding=5>
+<tbody>
+<tr>
+<td><a href="/linux/RPM/index.html">Index</a></td>
+<td><a href="/linux/RPM/Groups.html">index by Group</a></td>
+<td><a href="/linux/RPM/Distribs.html">index by Distribution</a></td>
+<td><a href="/linux/RPM/Vendors.html">index by Vendor</a></td>
+<td><a href="/linux/RPM/ByDate.html">index by creation date</a></td>
+<td><a href="/linux/RPM/ByName.html">index by Name</a></td>
+<td><a href="/linux/rpm2html/mirrors.html">Mirrors</a></td>
+<td><a href="/linux/rpm2html/help.html">Help</a></td>
+<td><a href="/linux/rpm2html/search.php">Search</a></td>
+</tr>
+</tbody></table>
+<h1 align=center><a href="/linux/remi/enterprise/8/modular/x86_64/redis-6.2.17-1.el8.remi.x86_64.rpm">
+redis-6.2.17-1.el8.remi RPM for x86_64</a></h1>
+<h3 align=center>From <a href="/linux/RPM/remi/enterprise/8/modular/x86_64/index.html">Remi's RPM Modular for RedHat EL 8 for x86_64</a>
+</h3>
+<table align=center border=5 cellspacing=5 cellpadding=5 bgcolor="#b0ffb0"><tbody>
+<tr><td>Name: redis</td>
+<td>Distribution: <a href="/linux/RPM/Unknown.html">Unknown</a></td></tr>
+<tr><td>Version: 6.2.17</td>
+<td>Vendor: <a href="/linux/RPM/Remi's_RPM_repository__https___rpms.remirepo.net___#StandWithUkraine.html">Remi's RPM repository &lt;https://rpms.remirepo.net/&gt; #StandWithUkraine</a></td></tr>
+<tr><td>Release: 1.el8.remi</td>
+<td>Build date: Mon Jan  6 15:36:19 2025</td></tr>
+<tr><td>Group: <a href="/linux/RPM/Applications_Databases.html">Applications/Databases</a></td>
+<td>Build host: builder.remirepo.net</td></tr>
+<tr><td>Size: 4530980</td>
+<td>Source RPM: <a href="https://rpms.remirepo.net/SRPMS/redis-6.2.17-1.el8.remi.src.rpm">redis-6.2.17-1.el8.remi.src.rpm</a></td></tr>
+<tr><td colspan="2">Packager: Remi Collet</td></tr>
+<tr><td colspan="2">Url: <a href="http://redis.io">http://redis.io</a></td></tr>
+<tr><td colspan="2">Summary: A persistent key-value database</td></tr>
+</tbody>
+</table>
+<pre>Redis is an advanced key-value store. It is often referred to as a data
+structure server since keys can contain strings, hashes, lists, sets and
+sorted sets.
+
+You can run atomic operations on these types, like appending to a string;
+incrementing the value in a hash; pushing to a list; computing set
+intersection, union and difference; or getting the member with highest
+ranking in a sorted set.
+
+In order to achieve its outstanding performance, Redis works with an
+in-memory dataset. Depending on your use case, you can persist it either
+by dumping the dataset to disk every once in a while, or by appending
+each command to a log.
+
+Redis also supports trivial-to-setup master-slave replication, with very
+fast non-blocking first synchronization, auto-reconnection on net split
+and so forth.
+
+Other features include Transactions, Pub/Sub, Lua scripting, Keys with a
+limited time-to-live, and configuration settings to make Redis behave like
+a cache.
+
+You can use Redis from most programming languages also.
+</pre>
+<h3>Provides</h3>
+<ul>
+<li><a href="/linux/rpm2html/search.php?query=redis">redis</a>
+<li><a href="/linux/rpm2html/search.php?query=bundled(hiredis)">bundled(hiredis)</a>
+<li><a href="/linux/rpm2html/search.php?query=bundled(jemalloc)">bundled(jemalloc)</a>
+<li><a href="/linux/rpm2html/search.php?query=bundled(linenoise)">bundled(linenoise)</a>
+<li><a href="/linux/rpm2html/search.php?query=bundled(lua-libs)">bundled(lua-libs)</a>
+<li><a href="/linux/rpm2html/search.php?query=bundled(lzf)">bundled(lzf)</a>
+<li><a href="/linux/rpm2html/search.php?query=config(redis)">config(redis)</a>
+<li><a href="/linux/rpm2html/search.php?query=redis(modules_abi)(x86-64)">redis(modules_abi)(x86-64)</a>
+<li><a href="/linux/rpm2html/search.php?query=redis(x86-64)">redis(x86-64)</a>
+</ul>
+<h3>Requires</h3>
+<ul>
+<li><a href="/linux/rpm2html/search.php?query=%2Fbin%2Fawk">/bin/awk</a>
+<li><a href="/linux/rpm2html/search.php?query=%2Fbin%2Fbash">/bin/bash</a>
+<li><a href="/linux/rpm2html/search.php?query=%2Fbin%2Fsh">/bin/sh</a>
+<li><a href="/linux/rpm2html/search.php?query=%2Fbin%2Fsh">/bin/sh</a>
+<li><a href="/linux/rpm2html/search.php?query=%2Fbin%2Fsh">/bin/sh</a>
+<li><a href="/linux/rpm2html/search.php?query=%2Fbin%2Fsh">/bin/sh</a>
+<li><a href="/linux/rpm2html/search.php?query=%2Fbin%2Fsh">/bin/sh</a>
+<li><a href="/linux/rpm2html/search.php?query=config(redis)">config(redis)</a> = 6.2.17-1.el8.remi
+<li><a href="/linux/rpm2html/search.php?query=ld-linux-x86-64.so.2()(64bit)">ld-linux-x86-64.so.2()(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=ld-linux-x86-64.so.2(GLIBC_2.3)(64bit)">ld-linux-x86-64.so.2(GLIBC_2.3)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libc.so.6()(64bit)">libc.so.6()(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libc.so.6(GLIBC_2.11)(64bit)">libc.so.6(GLIBC_2.11)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libc.so.6(GLIBC_2.14)(64bit)">libc.so.6(GLIBC_2.14)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libc.so.6(GLIBC_2.17)(64bit)">libc.so.6(GLIBC_2.17)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libc.so.6(GLIBC_2.2.5)(64bit)">libc.so.6(GLIBC_2.2.5)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libc.so.6(GLIBC_2.28)(64bit)">libc.so.6(GLIBC_2.28)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libc.so.6(GLIBC_2.3)(64bit)">libc.so.6(GLIBC_2.3)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libc.so.6(GLIBC_2.3.2)(64bit)">libc.so.6(GLIBC_2.3.2)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libc.so.6(GLIBC_2.3.4)(64bit)">libc.so.6(GLIBC_2.3.4)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libc.so.6(GLIBC_2.4)(64bit)">libc.so.6(GLIBC_2.4)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libc.so.6(GLIBC_2.6)(64bit)">libc.so.6(GLIBC_2.6)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libc.so.6(GLIBC_2.7)(64bit)">libc.so.6(GLIBC_2.7)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libcrypto.so.1.1()(64bit)">libcrypto.so.1.1()(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)">libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libdl.so.2()(64bit)">libdl.so.2()(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libdl.so.2(GLIBC_2.2.5)(64bit)">libdl.so.2(GLIBC_2.2.5)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libm.so.6()(64bit)">libm.so.6()(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libm.so.6(GLIBC_2.2.5)(64bit)">libm.so.6(GLIBC_2.2.5)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libpthread.so.0()(64bit)">libpthread.so.0()(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libpthread.so.0(GLIBC_2.12)(64bit)">libpthread.so.0(GLIBC_2.12)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libpthread.so.0(GLIBC_2.2.5)(64bit)">libpthread.so.0(GLIBC_2.2.5)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libpthread.so.0(GLIBC_2.3.2)(64bit)">libpthread.so.0(GLIBC_2.3.2)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=librt.so.1()(64bit)">librt.so.1()(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libssl.so.1.1()(64bit)">libssl.so.1.1()(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libssl.so.1.1(OPENSSL_1_1_0)(64bit)">libssl.so.1.1(OPENSSL_1_1_0)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libssl.so.1.1(OPENSSL_1_1_1)(64bit)">libssl.so.1.1(OPENSSL_1_1_1)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libsystemd.so.0()(64bit)">libsystemd.so.0()(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=libsystemd.so.0(LIBSYSTEMD_209)(64bit)">libsystemd.so.0(LIBSYSTEMD_209)(64bit)</a>
+<li><a href="/linux/rpm2html/search.php?query=logrotate">logrotate</a>
+<li><a href="/linux/rpm2html/search.php?query=rpmlib(CompressedFileNames)">rpmlib(CompressedFileNames)</a> &lt;= 3.0.4-1
+<li><a href="/linux/rpm2html/search.php?query=rpmlib(FileDigests)">rpmlib(FileDigests)</a> &lt;= 4.6.0-1
+<li><a href="/linux/rpm2html/search.php?query=rpmlib(PayloadFilesHavePrefix)">rpmlib(PayloadFilesHavePrefix)</a> &lt;= 4.0-1
+<li><a href="/linux/rpm2html/search.php?query=rpmlib(PayloadIsXz)">rpmlib(PayloadIsXz)</a> &lt;= 5.2-1
+<li><a href="/linux/rpm2html/search.php?query=rtld(GNU_HASH)">rtld(GNU_HASH)</a>
+<li><a href="/linux/rpm2html/search.php?query=shadow-utils">shadow-utils</a>
+<li><a href="/linux/rpm2html/search.php?query=systemd">systemd</a>
+<li><a href="/linux/rpm2html/search.php?query=systemd">systemd</a>
+<li><a href="/linux/rpm2html/search.php?query=systemd">systemd</a>
+</ul>
+<h3>License</h3>
+<pre>BSD-3-Clause AND BSD-2-Clause AND MIT
+</pre>
+<h3>Changelog</h3>
+<pre>* Mon Jan 06 2025 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.17-1
+  - Redis 6.2.17 Released Mon 6 Jan 2025 12:30:00 IDT
+  - Upgrade urgency SECURITY: CVE-2024-46981
+* Thu Oct 03 2024 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.16-1
+  - Redis Community Edition 6.2.16 Released Wed 02 Oct 2024 20:17:04 IDT
+  - Upgrade urgency SECURITY: CVE-2024-31449 and CVE-2024-31228
+  
+  -* Wed Oct 18 2023 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.14-1
+  - Redis 6.2.14 Released Wed 18 Oct 2023 10:33:40 IDT
+  - Upgrade urgency SECURITY: CVE-2023-45145
+  - set jemalloc page size #2240293
+* Mon Jul 10 2023 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.13-1
+  - Redis 6.2.13 Released Mon July 10 12:00:00 IDT 2023
+  - Upgrade urgency SECURITY
+* Tue Apr 18 2023 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.12-1
+  - Redis 6.2.12 Released Mon Apr 17 16:00:00 IST 2023
+  - Upgrade urgency: SECURITY, contains fixes to security issues.
+* Wed Mar 01 2023 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.11-1
+  - Redis 6.2.11 Released Tue Feb 28 12:00:00 IST 2023
+  - Upgrade urgency: SECURITY, contains fixes to security issues
+* Wed Jan 18 2023 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.10-1
+  - Redis 6.2.10 Released Mon Jan 17 12:00:00 IST 2023
+  - Upgrade urgency: MODERATE, a quick followup fix for a recently released 6.2.9.
+* Tue Jan 17 2023 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.9-1
+  - Redis 6.2.9 - Released Mon Jan 16 12:00:00 IDT 2023
+  - Upgrade urgency: SECURITY, contains fixes to security issues.
+* Tue Dec 13 2022 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.8-1
+  - Redis 6.2.8 - Released Mon 12 Dec 2022 12:00:00 IST
+  - Upgrade urgency: MODERATE, Contains fixes for a few non-critical or
+    unlikely bugs
+* Wed Apr 27 2022 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.7-1
+  - Redis 6.2.7 - Released Wed Apr 27 12:00:00 IDT 2022
+  - Upgrade urgency: SECURITY, contains fixes to security issues.
+* Tue Mar 22 2022 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.6-2
+  - F36 build
+* Mon Oct 04 2021 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.6-1
+  - Redis 6.2.6 - Released Mon Oct 4 12:00:00 IDT 2021
+  - Upgrade urgency: SECURITY, contains fixes to security issues.
+* Thu Jul 22 2021 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.5-1
+  - Redis 6.2.5 - Released Wed Jul 21 16:32:19 IDT 2021
+  - Upgrade urgency: SECURITY, contains fixes to security issues that affect
+    authenticated client connections on 32-bit versions. MODERATE otherwise.
+* Wed Jun 02 2021 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.4-1
+  - Redis 6.2.4 - Released Tue June 1 12:00:00 IST 2021
+  - Upgrade urgency: SECURITY, Contains fixes to security issues that affect
+    authenticated client connections. MODERATE otherwise.
+* Tue May 04 2021 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.3-1
+  - Redis 6.2.3 - Released Mon May 3 19:00:00 IST 2021
+  - Upgrade urgency: SECURITY, Contains fixes to security issues that affect
+    authenticated client connections. LOW otherwise.
+* Tue Apr 20 2021 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.2-1
+  - Redis 6.2.2 - Released Mon April 19 19:00:00 IST 2021
+  - Upgrade urgency: HIGH, if you're using ACL and pub/sub,
+    CONFIG REWRITE, or suffering from performance regression.
+* Tue Mar 02 2021 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.1-1
+  - Redis 6.2.1 - Released Mon Mar  1 17:51:36 IST 2021
+  - Upgrade urgency: LOW.
+* Tue Feb 23 2021 Remi Collet &lt;remi@remirepo.net&gt; - 6.2.0-1
+  - Redis 6.2.0 GA - Released Tue Feb 22 14:00:00 IST 2021
+  - Upgrade urgency: SECURITY if you use 32bit build of redis,
+    MODERATE if you used earlier versions of Redis 6.2, LOW otherwise
+* Wed Feb 03 2021 Remi Collet &lt;remi@remirepo.net&gt; - 6.2~RC3-1
+  - update to 6.2-RC3 (6.1.242)
+* Tue Jan 12 2021 Remi Collet &lt;remi@remirepo.net&gt; - 6.2~RC2-1
+  - update to 6.2-RC2 (6.1.241)
+* Tue Dec 15 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.2~RC1-1
+  - update to 6.2-RC1 (6.1.240)
+* Tue Nov 24 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.9-4
+  - create symlink for deployment tools
+* Mon Nov 23 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.9-3
+  - move configuration in /etc/redis per upstream recommendation
+    see https://github.com/redis/redis/issues/8051
+* Mon Nov 16 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.9-2
+  - fix broken config rewrite feature using patch from
+    https://github.com/redis/redis/pull/8058
+* Tue Oct 27 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.9-1
+  - Redis 6.0.9 - Released Mon Oct 26 10:37:47 IST 2020
+  - Upgrade urgency: MODERATE.
+* Thu Sep 10 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.8-1
+  - Redis 6.0.8 - Released Wed Sep 09 23:34:17 IDT 2020
+  - Upgrade urgency HIGH: Anyone who's using Redis 6.0.7 with Sentinel or
+    CONFIG REWRITE command is affected and should upgrade ASAP.
+* Tue Sep 01 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.7-1
+  - Redis 6.0.7 - Released Fri Aug 28 11:05:09 IDT 2020
+  - Upgrade urgency MODERATE: several bugs with moderate impact are fixed.
+  - drop patch merged upstream
+* Tue Jul 21 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.6-1
+  - Redis 6.0.6 - Released Mon Jul 20 09:31:30 IDT 2020
+  - Upgrade urgency MODERATE: several bugs with moderate impact are fixed here.
+  - open https://github.com/redis/redis/pull/7543 fix deprecated tail syntax
+* Wed Jun 10 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.5-1
+  - Redis 6.0.5 - Released Tue Jun 09 11:56:08 CEST 2020
+  - Upgrade urgency MODERATE: several bugs with moderate impact are fixed here.
+* Thu May 28 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.4-2
+  - Redis 6.0.4 - Released Thu May 28 11:36:45 CEST 2020
+  - Upgrade urgency CRITICAL: this release fixes a severe replication bug.
+* Thu May 28 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.3-3
+  - add comment for TimeoutStartSec and TimeoutStopSec in limit.conf
+  - fix missing notification to systemd for sentinel
+    patch from https://github.com/antirez/redis/pull/7168
+* Mon May 18 2020 Pablo Greco &lt;pgreco@centosproject.org&gt; - 6.0.3-2
+  - Fix build on armhfp/el7
+* Sun May 17 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.3-1
+  - Redis 6.0.3 - Released Sat May 16 18:10:21 CEST 2020
+  - Upgrade urgency CRITICAL: a crash introduced in 6.0.2 is now fixed.
+* Sat May 16 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.2-1
+  - Redis 6.0.2 - Released Fri May 15 22:24:36 CEST 2020
+  - Upgrade urgency MODERATE: many not critical bugfixes in different areas.
+    Critical fix to client side caching when keys are evicted from the
+    tracking table but no notifications are sent.
+* Sat May 02 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.1-1
+  - Redis 6.0.1 - Released Sat May 02 00:06:07 CEST 2020
+  - Upgrade urgency HIGH:
+    This release fixes a crash when builiding against Libc malloc.
+* Thu Apr 30 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.0-1
+  - Redis 6.0.0 GA - Released Thu Apr 30 14:55:02 CEST 2020
+  - Upgrade urgency CRITICAL: many bugs fixed compared to the last RC
+* Fri Apr 17 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.0~RC4-1
+  - update to 6.0-RC4 (5.9.104)
+* Wed Apr 01 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.0~RC3-1
+  - update to 6.0-RC3 (5.9.103)
+* Thu Mar 05 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.0~RC2-1
+  - update to 6.0-RC2 (5.9.102)
+* Tue Mar 03 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.0~RC1-3
+  - ensure never daemonized with systemd
+    see https://github.com/remicollet/remirepo/issues/133
+* Tue Mar 03 2020 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.0~RC1-2
+  - enable TLS support (EL-6 excepted)
+  - patch extern SDS_NOINIT definition for gcc 10 (F32)
+* Fri Dec 20 2019 Remi Collet &lt;remi@remirepo.net&gt; - 6.0.0~RC1-1
+  - update to 6.0-RC1 (5.9.101)
+  - build using GCC 8 on EL-7, GCC 6 on EL-6 (devtoolset)
+* Wed Nov 20 2019 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.7-1
+  - Redis 5.0.7 - Released Tue Nov 19 17:52:44 CET 2019
+  - Upgrade urgency HIGH: many issues fixed, some may have an impact.
+* Wed Sep 25 2019 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.6-1
+  - Redis 5.0.6 - Released Wed Sep 25 12:33:56 CEST 2019
+  - Upgrade urgency CRITICAL: Only in case of exposed instances
+    to untrusted users.
+* Thu May 16 2019 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.5-1
+  - Redis 5.0.5 - Released Wed May 15 17:57:41 CEST 2019
+  - Upgrade urgency CRITICAL: This release fixes an important AOF
+    fysnc bug and other less critical issues.
+  - drop redis-trib sub-package now in redis-cli (F30, EL8)
+* Tue Mar 19 2019 Nathan Scott &lt;nathans@redhat.com&gt; - 5.0.4-1
+  - Upstream 5.0.4 release and redis-doc updates.
+  - Fix sentinel.conf logfile line addition.
+* Wed Dec 12 2018 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.3-1
+  - Redis 5.0.3 - Released Tue Dec 11 18:17:26 CET 2018
+  - Upgrade urgency HIGH: Redis 5 is consolidating, upgrading is a good idea.
+* Thu Nov 22 2018 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.2-1
+  - Redis 5.0.2 - Released Thu Nov 22 11:22:37 CET 2018
+  - Upgrade urgency: CRITICAL if you use streams and consumer groups.
+    HIGH if you use redis-cli with Redis Cluster. LOW otherwise.
+* Wed Nov 07 2018 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.1-1
+  - Redis 5.0.1 - Released Wed Nov 07 13:09:30 CET 2018
+  - Upgrade urgency: URGENT if you use Redis Streams. MODERATE otherwise.
+* Wed Oct 17 2018 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.0-1
+  - Redis 5.0.0 - Released Wed Oct 17 13:28:26 CEST 2018
+  - Upgrade urgency CRITICAL: Several fixes to streams AOF and replication.
+  - Update to current upstream redis-doc
+* Wed Oct 10 2018 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.0~RC6-1
+  - Redis 5.0 RC6 (4.9.106) - Released Wed Oct 10 11:03:54 CEST 2018
+* Thu Sep 06 2018 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.0~RC5-1
+  - Redis 5.0 RC5 (4.9.105) - Released Thu Sep 06 12:54:29 CEST 2018
+* Sun Sep 02 2018 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.0~RC4-2
+  - use bunled jemalloc instead of system shared version
+* Thu Aug 09 2018 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.0~RC4-1
+  - Redis 5.0 RC4 (4.9.104) - Released Fri Aug 03 13:51:02 CEST 2018
+  - Drop the pandoc build dependency, install only markdown.
+* Thu Jun 14 2018 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.0~RC3-1
+  - Redis 5.0 RC3 (4.9.103) - Released Wed Jun 14 9:51:44 CEST 2018
+* Thu Jun 14 2018 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.0~RC2-1
+  - Redis 5.0 RC2 (4.9.102) - Released Wed Jun 13 12:49:13 CEST 2018
+  - Upgrade urgency CRITICAL: This release fixes important security issues.
+                        HIGH: This release fixes a SCAN commands family bug.
+                    MODERATE: This release fixes a PSYNC2 edge case with expires.
+                    MODERATE: Sentinel related fixes.
+                         LOW: All the other issues
+* Wed May 30 2018 Remi Collet &lt;remi@remirepo.net&gt; - 5.0.0~RC1-1
+  - update to 5.0.0-RC1 (4.9.101)
+  - open https://github.com/antirez/redis/pull/4964 - stdint.h
+* Mon Mar 26 2018 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.9-1
+  - Update to 4.0.9 - Released Mon Mar 26 17:52:32 CEST 2018
+  - Upgrade urgency CRITICAL: Critical upgrade for users
+    using AOF with the fsync policy set to &quot;always&quot;.
+* Sun Feb 04 2018 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.8-1
+  - Update to 4.0.8 - Released Fri Feb 2 11:17:40 CET 2018
+  - Upgrade urgency CRITICAL ONLY for Redis Cluster users.
+* Wed Jan 24 2018 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.7-1
+  - Redis 4.0.7 - Released Wed Jan 24 11:01:40 CET 2018
+  - Upgrade urgency MODERATE: Several bugs fixed, but none of critical level.
+  - Update to current upstream redis-doc
+* Tue Dec 05 2017 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.6-1
+  - Redis 4.0.6 - Released Thu Dec 4 17:54:10 CET 2017
+  - Upgrade urgency CRITICAL: More errors in the fixes for PSYNC2
+    in Redis 4.0.5 were identified.
+* Fri Dec 01 2017 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.5-1
+  - Redis 4.0.5 - Released Thu Dec 1 16:03:32 CET 2017
+  - Upgrade urgency CRITICAL: Redis 4.0.4 fix for PSYNC2 was broken,
+    causing the slave to crash when receiving an RDB file from the
+    master that contained a duplicated Lua script.
+* Fri Dec 01 2017 Nathan Scott &lt;nathans@redhat.com&gt; - 4.0.4-1
+  - Upstream 4.0.4 release.
+  - Update to current upstream redis-doc also.
+  - Fix man page issues (RHBZ #1513594 and RHBZ #1515417).
+* Thu Nov 30 2017 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.3-1
+  - Redis 4.0.3 - Released Thu Nov 30 13:14:50 CET 2017
+  - Upgrade urgency CRITICAL: Several PSYNC2 bugs can corrupt the
+    slave data set after a restart and a successful PSYNC2 handshake.
+  - drop duplicated documentation from main package
+* Tue Nov 21 2017 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.2-3
+  - add doc and devel subpackages, synced from Fedora
+  - keep man pages in main package
+  - minor fix for EL-6 and tests
+* Tue Sep 26 2017 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.2-2
+  - simplify build, synced from Fedora
+* Thu Sep 21 2017 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.2-1
+  - Redis 4.0.2 - Released Thu Sep 21 15:47:53 CEST 2017
+  - Upgrade urgency HIGH: Several potentially critical bugs fixed.
+* Tue Sep 05 2017 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.1-3
+  - switch systemd unit to Type=notify, see rhbz #1172841
+* Fri Aug 18 2017 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.1-2
+  - Add redis-trib based on patch from Sebastian Saletnik.  (RHBZ #1215654)
+* Tue Aug 01 2017 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.1-1
+  - Redis 4.0.1 - Released Mon Jul 24 15:51:31 CEST 2017
+  - Upgrade urgency MODERATE: A few serious but non critical bugs
+* Mon Jul 17 2017 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.0-1
+  - update to 4.0.0 GA
+* Sat Jun 24 2017 Remi Collet &lt;remi@remirepo.net&gt; - 4.0.0-0.4.RC3
+  - rebuild with some fedora changes:
+   - Add RuntimeDirectory=redis to systemd unit file (RHBZ #1454700)
+   - Fix a shutdown failure with Unix domain sockets (RHBZ #1444988)
+* Mon Apr 24 2017 Remi Collet &lt;remi@fedoraproject.org&gt; - 4.0.0-0.3.RC3
+  - update to 4.0.0-RC3 (3.9.103)
+* Tue Dec 06 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 4.0.0-0.2.RC2
+  - update to 4.0.0-RC2 (3.9.102)
+* Mon Dec 05 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 4.0.0-0.1.RC1
+  - update to 4.0.0-RC1 (3.9.101)
+* Thu Oct 27 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.2.5-1
+  - Redis 3.2.5 - Released Wed Oct 26 09:16:40 CEST 2016
+  - Upgrade urgency LOW: This release only fixes a compilation issue
+* Mon Sep 26 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.2.4-1
+  - Redis 3.2.4 - Released Mon Sep 26 08:58:21 CEST 2016
+  - Upgrade urgency CRITICAL: Redis 3.2 and unstable contained
+    a security vulnerability fixed by this release.
+* Wed Sep 14 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.2.3-4
+  - move redis-shutdown to libexec
+  - add missing LSB headers to init scripts
+* Fri Sep 09 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.2.3-3
+  - add patch from https://github.com/antirez/redis/pull/3494
+* Fri Sep 09 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.2.3-2
+  - add man pages from https://github.com/antirez/redis/pull/3491
+  - data and configuration should not be publicly readable
+  - remove /var/run/redis with systemd
+  - provide redis-check-rdb as a symlink to redis-server
+* Tue Aug 02 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.2.3-1
+  - Redis 3.2.3 - Release date: Tue Aug 02 10:55:24 CEST 2016
+  - Upgrade urgency MODERATE: Fix replication delay and redis-cli
+    security issue.
+* Fri Jul 29 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.2.2-1
+  - Redis 3.2.2 - Release date: Thu Jul 28 14:14:54 CEST 2016
+  - Upgrade urgency MODERATE:
+    A Redis server and a Sentinel crash are now fixed.
+    GEORADIUS errors in reported entries are fixed.
+* Fri Jun 24 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.2.1-2
+  - fix %postun scriptlet, thanks Matthias
+* Mon Jun 20 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.2.1-1
+  - Redis 3.2.1 - Release date: Fri Jun 17 15:01:56 CEST 2016
+  - Upgrade urgency HIGH: Critical fix to Redis Sentinel,
+    due to 3.2.0 regression compared to 3.0.
+* Tue May 10 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.2.0-1
+  - update to 3.2.0
+* Mon Feb 08 2016 Haïkel Guémar &lt;hguemar@fedoraproject.org&gt; - 3.2-0.4.rc3
+  - Fix redis-shutdown to handle password-protected instances shutdown
+* Thu Jan 28 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.2-0.3.rc3
+  - update to 3.2-rc3 (version 3.1.103)
+* Tue Jan 26 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.2-0.2.rc2
+  - update to 3.2-rc2 (version 3.1.102)
+* Fri Jan 15 2016 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.2-0.1.rc1
+  - update to 3.2-rc1 (version 3.1.101)
+    This is the first release candidate of Redis 3.2
+* Sat Dec 26 2015 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.0.6-1
+  - Redis 3.0.6 - Release date: 18 Dec 2015
+  - Upgrade urgency: MODERATE
+* Fri Oct 16 2015 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.0.5-1
+  - Redis 3.0.5 - Release date: 15 Oct 2015
+  - Upgrade urgency: MODERATE
+* Thu Sep 10 2015 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.0.4-1
+  - Redis 3.0.4 - Release date: 8 Sep 2015
+  - Upgrade urgency: HIGH for Redis and Sentinel.
+* Wed Aug 05 2015 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.0.3-1.1
+  - make redis-shutdown more robust, see #22
+* Fri Jul 17 2015 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.0.3-1
+  - Redis 3.0.3 - Release date: 17 Jul 2015
+  - Upgrade urgency: LOW for Redis and Sentinel.
+* Tue Jun 09 2015 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.0.2-1
+  - Redis 3.0.2 - Release date: 4 Jun 2015
+  - Upgrade urgency: HIGH for Redis because of a security issue.
+                     LOW for Sentinel.
+* Wed May 06 2015 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.0.1-1
+  - Redis 3.0.1 - Release date: 5 May 2015
+  - Upgrade urgency: LOW for Redis and Cluster, MODERATE for Sentinel.
+* Tue Apr 14 2015 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.0.0-2
+  - rebuild with new redis-shutdown from rawhide
+  - improved description from rawhide
+  - use redis/redis owner for directories under /var
+* Mon Apr 06 2015 Remi Collet &lt;remi@fedoraproject.org&gt; - 3.0.0-1
+  - Redis 3.0.0 - Release date: 1 Apr 2015
+* Thu Mar 26 2015 Haïkel Guémar &lt;hguemar@fedoraproject.org&gt; - 2.8.19-2
+  - Fix redis-shutdown on multiple NIC setup (RHBZ #1201237)
+* Wed Dec 17 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.19-1
+  - Redis 2.8.19 - Release date: 16 Dec 2014
+    upgrade urgency: LOW for both Redis and Sentinel.
+* Sat Dec 13 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.18-2
+  - provides /etc/systemd/system/redis.service.d/limit.conf
+    and /etc/systemd/system/redis-sentinel.service.d/limit.conf
+    or /etc/security/limits.d/95-redis.conf
+* Thu Dec 04 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.18-1.1
+  - EL-5 rebuild with upstream patch
+* Thu Dec 04 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.18-1
+  - Redis 2.8.18 - Release date: 4 Dec 2014
+    upgrade urgency: LOW for both Redis and Sentinel.
+  - fix isfinite missing on EL-5
+* Sun Sep 21 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.17-2
+  - fix sentinel service unit file for systemd
+  - also use redis-shutdown in init scripts
+* Sat Sep 20 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.17-1
+  - Redis 2.8.17 - Release date: 19 Sep 2014
+    upgrade urgency: HIGH for Redis Sentinel, LOW for Redis Server.
+* Wed Sep 17 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.16-1
+  - Redis 2.8.16 - Release date: 16 Sep 2014
+    upgrade urgency: HIGH for Redis, LOW for Sentinel.
+* Fri Sep 12 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.15-1
+  - Redis 2.8.15 - Release date: 12 Sep 2014
+    upgrade urgency: LOW for Redis, HIGH for Sentinel.
+  - move commands from /usr/sbin to /usr/bin
+  - add redis-shutdown command (systemd)
+* Thu Sep 04 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.14-1
+  - Redis 2.8.14 - Release date:  1 Sep 2014
+    upgrade urgency: HIGH for Lua scripting users, otherwise LOW.
+* Tue Jul 15 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.13-1
+  - Redis 2.8.13 - Release date: 14 Jul 2014
+    upgrade urgency: LOW for Redis and Sentinel
+* Tue Jun 24 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.12-1
+  - Redis 2.8.12 - Release date: 23 Jun 2014
+    upgrade urgency: HIGH for Redis, CRITICAL for Sentinel.
+  - always use jemalloc (instead of tcmalloc)
+* Mon Jun 16 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.11-1
+  - Redis 2.8.11 - Release date: 11 Jun 2014
+    upgrade urgency: HIGH if you use Lua scripting, LOW otherwise.
+* Fri Jun 06 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.10-1
+  - Redis 2.8.10 - Release date: 5 Jun 2014
+    upgrade urgency: HIGH if you use min-slaves-to-write option.
+* Tue Apr 22 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.9-1
+  - Redis 2.8.9 - Release date: 22 Apr 2014
+    upgrade urgency: LOW, only new features introduced, no bugs fixed.
+* Thu Mar 27 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.8-1
+  - Redis 2.8.8 - Release date: 25 Mar 2014
+    upgrade urgency: HIGH for Redis, LOW for Sentinel.
+* Sat Mar 08 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.7-1
+  - Redis 2.8.7 - Release date: 5 Mar 2014
+    upgrade urgency: LOW for Redis, LOW for Sentinel.
+* Fri Feb 14 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.6-1
+  - Redis 2.8.6 - Release date: 13 Feb 2014
+    upgrade urgency: HIGH for Redis, LOW for Sentinel.
+* Thu Jan 16 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.4-1
+  - Redis 2.8.4 - Release date: 13 Jan 2014
+    upgrade urgency: MODERATE for Redis and Sentinel.
+* Mon Jan 06 2014 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.3-2
+  - add redis-sentinel command (link to redis-server)
+  - don't rely on config for daemonize and pidfile
+  - add redis-sentinel service
+* Sat Dec 14 2013 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.3-1
+  - Redis 2.8.3
+    upgrade urgency: MODERATE for Redis, HIGH for Sentinel.
+  - redis own /etc/redis.conf (needed CONFIG WRITE)
+  - add sentinel.conf as documentation
+* Mon Dec 02 2013 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.8.2-1
+  - Redis 2.8.2, new major version
+  - pull rawhide changes (add tmpfiles)
+* Sun Sep 08 2013 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.16-1
+  - Redis 2.6.16
+    upgrade urgency: MODERATE
+* Fri Sep 06 2013 Fabian Deutsch &lt;fabian.deutsch@gmx.de&gt; - 2.6.16-1
+  - Update to 2.6.16
+  - Fix rhbz#973151
+  - Fix rhbz#656683
+  - Fix rhbz#977357 (Jan Vcelak &lt;jvcelak@fedoraproject.org&gt;)
+* Sat Aug 24 2013 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.15-1
+  - Redis 2.6.15
+    upgrade urgency: MODERATE, upgrade ASAP only if you experience
+    issues related to the expired keys collection algorithm,
+    or if you use the ZUNIONSTORE command.
+* Sun Jul 28 2013 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.14-1
+  - Redis 2.6.14
+    upgrade urgency: HIGH because of the following two issues:
+      Lua scripting + Replication + AOF in slaves problem
+      AOF + expires possible race condition
+  - add option to run tests during build (not in mock)
+* Tue Jul 23 2013 Peter Robinson &lt;pbrobinson@fedoraproject.org&gt; 2.6.13-4
+  - ARM has gperftools
+* Wed Jun 19 2013 Fabian Deutsch &lt;fabiand@fedoraproject.org&gt; - 2.6.13-3
+  - Modify jemalloc patch for s390 compatibility (Thanks sharkcz)
+* Fri Jun 07 2013 Fabian Deutsch &lt;fabiand@fedoraproject.org&gt; - 2.6.13-2
+  - Unbundle jemalloc
+* Fri Jun 07 2013 Fabian Deutsch &lt;fabiand@fedoraproject.org&gt; - 2.6.13-1
+  - Add compile PIE flag (rhbz#955459)
+  - Update to redis 2.6.13 (rhbz#820919)
+* Tue Apr 30 2013 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.13-1
+  - Redis 2.6.13
+    upgrade urgency: MODERATE, nothing very critical
+* Sat Mar 30 2013 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.12-1
+  - Redis 2.6.12
+    upgrade urgency: MODERATE, nothing very critical
+    but a few non trivial bugs
+* Tue Mar 12 2013 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.11-1
+  - Redis 2.6.11
+    upgrade urgency: LOW, however updating is encouraged
+    if you have many instances per server and you want
+    to lower the CPU / energy usage.
+* Mon Feb 11 2013 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.10-1
+  - Redis 2.6.10
+    upgrade urgency: MODERATE, this release contains many non
+    critical fixes and many small improvements.
+* Thu Jan 17 2013 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.9-1
+  - Redis 2.6.9
+    upgrade urgency: MODERATE if you use replication.
+* Fri Jan 11 2013 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.8-1
+  - Redis 2.6.8
+    upgrade urgency: MODERATE if you use Lua scripting. Otherwise LOW.
+* Tue Dec 04 2012 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.7-1
+  - Redis 2.6.7
+    upgrade urgency: MODERATE (unless you BLPOP using the same
+    key multiple times).
+* Fri Nov 23 2012 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.5-1
+  - Redis 2.6.5 (upgrade urgency: moderate)
+* Fri Nov 16 2012 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.4-1
+  - Redis 2.6.4 (upgrade urgency: low)
+* Sun Oct 28 2012 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.2-1
+  - Redis 2.6.2 (upgrade urgency: low)
+  - fix typo in systemd macro
+* Wed Oct 24 2012 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.0-1
+  - Redis 2.6.0 is the latest stable version
+  - add patch for old glibc on RHEL-5
+* Sat Oct 20 2012 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.0-0.2.rc8
+  - Update to redis 2.6.0-rc8
+  - improve systemd integration
+* Thu Aug 30 2012 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.6.0-0.1.rc6
+  - Update to redis 2.6.0-rc6
+* Thu Aug 30 2012 Remi Collet &lt;remi@fedoraproject.org&gt; - 2.4.16-1
+  - Update to redis 2.4.16
+* Sat Jul 21 2012 Fedora Release Engineering &lt;rel-eng@lists.fedoraproject.org&gt; - 2.4.15-3
+  - Rebuilt for https://fedoraproject.org/wiki/Fedora_18_Mass_Rebuild
+* Sun Jul 08 2012 Silas Sewell &lt;silas@sewell.org&gt; - 2.4.15-2
+  - Remove TODO from docs
+* Sun Jul 08 2012 Silas Sewell &lt;silas@sewell.org&gt; - 2.4.15-1
+  - Update to redis 2.4.15
+* Sat May 19 2012 Silas Sewell &lt;silas@sewell.org&gt; - 2.4.13-1
+  - Update to redis 2.4.13
+* Sat Mar 31 2012 Silas Sewell &lt;silas@sewell.org&gt; - 2.4.10-1
+  - Update to redis 2.4.10
+* Fri Feb 24 2012 Silas Sewell &lt;silas@sewell.org&gt; - 2.4.8-1
+  - Update to redis 2.4.8
+* Sat Feb 04 2012 Silas Sewell &lt;silas@sewell.org&gt; - 2.4.7-1
+  - Update to redis 2.4.7
+* Wed Feb 01 2012 Fabian Deutsch &lt;fabiand@fedoraproject.org&gt; - 2.4.6-4
+  - Fixed a typo in the spec
+* Tue Jan 31 2012 Fabian Deutsch &lt;fabiand@fedoraproject.org&gt; - 2.4.6-3
+  - Fix .service file, to match config (Type=simple).
+* Tue Jan 31 2012 Fabian Deutsch &lt;fabiand@fedoraproject.org&gt; - 2.4.6-2
+  - Fix .service file, credits go to Timon.
+* Thu Jan 12 2012 Fabian Deutsch &lt;fabiand@fedoraproject.org&gt; - 2.4.6-1
+  - Update to 2.4.6
+  - systemd unit file added
+  - Compiler flags changed to compile 2.4.6
+  - Remove doc/ and Changelog
+* Sun Jul 24 2011 Silas Sewell &lt;silas@sewell.org&gt; - 2.2.12-1
+  - Update to redis 2.2.12
+* Fri May 06 2011 Dan Horák &lt;dan[at]danny.cz&gt; - 2.2.5-2
+  - google-perftools exists only on selected architectures
+* Sat Apr 23 2011 Silas Sewell &lt;silas@sewell.ch&gt; - 2.2.5-1
+  - Update to redis 2.2.5
+* Sat Mar 26 2011 Silas Sewell &lt;silas@sewell.ch&gt; - 2.2.2-1
+  - Update to redis 2.2.2
+* Wed Feb 09 2011 Fedora Release Engineering &lt;rel-eng@lists.fedoraproject.org&gt; - 2.0.4-2
+  - Rebuilt for https://fedoraproject.org/wiki/Fedora_15_Mass_Rebuild
+* Sun Dec 19 2010 Silas Sewell &lt;silas@sewell.ch&gt; - 2.0.4-1
+  - Update to redis 2.0.4
+* Tue Oct 19 2010 Silas Sewell &lt;silas@sewell.ch&gt; - 2.0.3-1
+  - Update to redis 2.0.3
+* Fri Oct 08 2010 Silas Sewell &lt;silas@sewell.ch&gt; - 2.0.2-1
+  - Update to redis 2.0.2
+  - Disable checks section for el5
+* Sat Sep 11 2010 Silas Sewell &lt;silas@sewell.ch&gt; - 2.0.1-1
+  - Update to redis 2.0.1
+* Sat Sep 04 2010 Silas Sewell &lt;silas@sewell.ch&gt; - 2.0.0-1
+  - Update to redis 2.0.0
+* Thu Sep 02 2010 Silas Sewell &lt;silas@sewell.ch&gt; - 1.2.6-3
+  - Add Fedora build flags
+  - Send all scriplet output to /dev/null
+  - Remove debugging flags
+  - Add redis.conf check to init script
+* Mon Aug 16 2010 Silas Sewell &lt;silas@sewell.ch&gt; - 1.2.6-2
+  - Don't compress man pages
+  - Use patch to fix redis.conf
+* Tue Jul 06 2010 Silas Sewell &lt;silas@sewell.ch&gt; - 1.2.6-1
+  - Initial package
+
+</pre>
+<h3>Files</h3>
+<pre>/etc/logrotate.d/redis
+/etc/redis
+/etc/redis/redis.conf
+/etc/redis/sentinel.conf
+/etc/systemd/system/redis-sentinel.service.d
+/etc/systemd/system/redis-sentinel.service.d/limit.conf
+/etc/systemd/system/redis.service.d
+/etc/systemd/system/redis.service.d/limit.conf
+/usr/bin/redis-benchmark
+/usr/bin/redis-check-aof
+/usr/bin/redis-check-rdb
+/usr/bin/redis-cli
+/usr/bin/redis-sentinel
+/usr/bin/redis-server
+/usr/lib/.build-id
+/usr/lib/.build-id/99
+/usr/lib/.build-id/99/ac6803fe42c84dceb532c2181a8b6ba31cd115
+/usr/lib/.build-id/aa
+/usr/lib/.build-id/aa/ef4accbc206d98f4e3773a153961ac879a0bd0
+/usr/lib/.build-id/e5
+/usr/lib/.build-id/e5/5a2c2cc58d29b226f88d7467dc8ef8170ae693
+/usr/lib/systemd/system/redis-sentinel.service
+/usr/lib/systemd/system/redis.service
+/usr/lib64/redis
+/usr/lib64/redis/modules
+/usr/libexec/redis-shutdown
+/usr/share/licenses/redis
+/usr/share/licenses/redis/COPYING
+/usr/share/licenses/redis/COPYING-hiredis
+/usr/share/licenses/redis/COPYING-jemalloc
+/usr/share/licenses/redis/COPYRIGHT-lua
+/usr/share/man/man1/redis-benchmark.1.gz
+/usr/share/man/man1/redis-check-aof.1.gz
+/usr/share/man/man1/redis-check-rdb.1.gz
+/usr/share/man/man1/redis-cli.1.gz
+/usr/share/man/man1/redis-sentinel.1.gz
+/usr/share/man/man1/redis-server.1.gz
+/usr/share/man/man5/redis-sentinel.conf.5.gz
+/usr/share/man/man5/redis.conf.5.gz
+/var/lib/redis
+/var/log/redis
+/var/run/redis
+
+</pre>
+<hr>
+<p>Generated by <a href="/linux/rpm2html/">rpm2html 1.8.1</a>
+<p><a href="mailto:fabrice@bellet.info">Fabrice Bellet</a>, Fri Feb 21 16:54:51 2025
+
+</body>
+</html>
